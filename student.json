@@ -1,0 +1,112 @@
+{
+  "student": [
+    {
+      "usn": "211VMTR00026",
+      "gender": "Male",
+      "religion": "Hindu",
+      "course": "MSC",
+      "section": "A",
+      "blood": "AB+",
+      "username": "Abhinav",
+      "password": "a",
+      "Math": {
+        "marks": "94",
+        "grade": "A++"
+      },
+      "Python": {
+        "marks": "70",
+        "grade": "C+"
+      },
+      "Java": {
+        "marks": "82",
+        "grade": "B+"
+      },
+      "DBMS": {
+        "marks": "77",
+        "grade": "B"
+      },
+      "DSA": {
+        "marks": "52",
+        "grade": "C"
+      },
+      "Linux": {
+        "marks": "77",
+        "grade": "B"
+      },
+      "dob": "01/02/2001",
+      "email": "abhinav@abhi.com"
+    },
+    {
+      "usn": "123VMTR00026",
+      "gender": "Male",
+      "religion": "Hindu",
+      "course": "MSC",
+      "section": "Z",
+      "blood": "O+",
+      "username": "Abhishek",
+      "password": "b",
+      "Math": {
+        "marks": "94",
+        "grade": "A++"
+      },
+      "Python": {
+        "marks": "70",
+        "grade": "C+"
+      },
+      "Java": {
+        "marks": "82",
+        "grade": "B+"
+      },
+      "DBMS": {
+        "marks": "77",
+        "grade": "B"
+      },
+      "DSA": {
+        "marks": "52",
+        "grade": "C"
+      },
+      "Linux": {
+        "marks": "77",
+        "grade": "B"
+      },
+      "dob": "03/09/2003",
+      "email": "abhishek@abhi.com"
+    },
+    {
+      "usn": "097VMTR00026",
+      "gender": "Male",
+      "religion": "Hindu",
+      "course": "MSC",
+      "section": "T",
+      "blood": "A+",
+      "dob": "09/08/2001",
+      "email": "sourav@sou.com",
+      "username": "Sourav",
+      "password": "s",
+      "Math": {
+        "marks": "94",
+        "grade": "A++"
+      },
+      "Python": {
+        "marks": "70",
+        "grade": "C+"
+      },
+      "Java": {
+        "marks": "82",
+        "grade": "B+"
+      },
+      "DBMS": {
+        "marks": "77",
+        "grade": "B"
+      },
+      "DSA": {
+        "marks": "52",
+        "grade": "C"
+      },
+      "Linux": {
+        "marks": "77",
+        "grade": "B"
+      }
+    }
+  ]
+}

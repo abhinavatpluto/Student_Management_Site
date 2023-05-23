@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <title>Time Table</title>
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="color: black;">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="img/SFS.png" alt="Bootstrap" width="30" height="24">
+      </a>
+
+      <a class="navbar-brand" href="index.html">Spring Flower School</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Timetable.html">Time Table</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="result.html">Exam Result</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extraActivity.html">Extra Activity</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Profile.html">Student Profile</a>
+          </li>
+        </ul>
+
+        <label id="student">Student </label>
+        <script>
+          document.getElementById("student").innerHTML = sessionStorage.getItem("username");
+        </script>
+        <a href="Login.html"> Log out</a>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- <h2 class="time">Time Table</h2> -->
+
+  <div class="table">
+    <h3 style="padding: 1.8rem; color:rgb(130, 54, 54);"><u>Time Table</u> </h3>
+
+    <table width="769" class="table">
+      <tbody>
+        <tr>
+          <td width="108">
+            <p>Time</p>
+          </td>
+          <td width="114">
+            <p>Monday</p>
+          </td>
+          <td width="108">
+            <p>Tuesday</p>
+          </td>
+          <td width="120">
+            <p>Wednesday</p>
+          </td>
+          <td width="124">
+            <p>Thursday</p>
+          </td>
+          <td width="96">
+            <p>Friday</p>
+          </td>
+          <td width="99">
+            <p>Saturday</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="108">
+            <p>9:00 &ndash; 10:00</p>
+          </td>
+          <td width="114">
+            <p>Python</p>
+          </td>
+          <td width="108">
+            <p>Python</p>
+          </td>
+          <td width="120">
+            <p>Python</p>
+          </td>
+          <td width="124">
+            <p>Python</p>
+          </td>
+          <td width="96">
+            <p>Python</p>
+          </td>
+          <td width="99">
+            <p>Python</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="108">
+            <p>10:00 &ndash; 11:00</p>
+          </td>
+          <td width="114">
+            <p>DBMS</p>
+          </td>
+          <td width="108">
+            <p>DBMS</p>
+          </td>
+          <td width="120">
+            <p>DBMS</p>
+          </td>
+          <td width="124">
+            <p>DBMS</p>
+          </td>
+          <td width="96">
+            <p>DBMS</p>
+          </td>
+          <td width="99">
+            <p>DBMS</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="108">
+            <p>11:00 &ndash; 12:00</p>
+          </td>
+          <td width="114">
+            <p>Math</p>
+          </td>
+          <td width="108">
+            <p>Math</p>
+          </td>
+          <td width="120">
+            <p>Math</p>
+          </td>
+          <td width="124">
+            <p>Math</p>
+          </td>
+          <td width="96">
+            <p>Math</p>
+          </td>
+          <td width="99">
+            <p>Math</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="108">
+            <p>12:00 &ndash; 01:00</p>
+          </td>
+          <td width="114">
+            <p>Java</p>
+          </td>
+          <td width="108">
+            <p>Java</p>
+          </td>
+          <td width="120">
+            <p>Java</p>
+          </td>
+          <td width="124">
+            <p>Java</p>
+          </td>
+          <td width="96">
+            <p>Java</p>
+          </td>
+          <td width="99">
+            <p>Java</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="108">
+            <p>01:00 &ndash; 02:00</p>
+          </td>
+          <td width="114">
+            <p>DSA</p>
+          </td>
+          <td width="108">
+            <p>DSA</p>
+          </td>
+          <td width="120">
+            <p>DSA</p>
+          </td>
+          <td width="124">
+            <p>DSA</p>
+          </td>
+          <td width="96">
+            <p>DSA</p>
+          </td>
+          <td width="99">
+            <p>DSA</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="108">
+            <p>02:00 &ndash; 03:00</p>
+          </td>
+          <td width="114">
+            <p>Linux</p>
+          </td>
+          <td width="108">
+            <p>Linux</p>
+          </td>
+          <td width="120">
+            <p>Linux</p>
+          </td>
+          <td width="124">
+            <p>Linux</p>
+          </td>
+          <td width="96">
+            <p>Linux</p>
+          </td>
+          <td width="99">
+            <p>Linux</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-weight: 400;">&nbsp;</p>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
